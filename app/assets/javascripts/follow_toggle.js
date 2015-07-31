@@ -74,7 +74,7 @@ $.FollowToggle.prototype.handleClick = function (event) {
       this.render();
     }.bind(this),
     error: function () {
-      alert("Error in FollowToggle");
+      console.log("Error in FollowToggle");
     }
   });
 };
