@@ -17,7 +17,6 @@ $.UsersSearch.prototype.handleInput = function (event) {
       this.renderResults(users);
     }.bind(this),
     error: function () {
-      console.log("Error in UserSearch.handleInput");
     }
   });
 };
@@ -25,7 +24,13 @@ $.UsersSearch.prototype.handleInput = function (event) {
 $.UsersSearch.prototype.renderResults = function (users) {
   this.$ul.empty();
   users.forEach(function (user) {
-    this.$ul.append($('<li><a href="/users/' + user.id + '/">' + user.username + '</a></li>'));
+    var newEl = $('<li></li>');
+    newEl.append($('<a href="/users/' + user.id + '/">' + user.username + '</a>'));
+    var newButton = ($('<button class="follow-toggle">'));
+    var followState = user.followed ? "followed" : "unfollowed";
+    newButton.followToggle({ userId: user.id, followState: followState });
+    newEl.append(newButton);
+    this.$ul.append(newEl);
   }.bind(this));
 };
 
