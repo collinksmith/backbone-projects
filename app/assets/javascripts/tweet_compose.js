@@ -1,5 +1,3 @@
-
-
 $.TweetCompose = function (el) {
   this.$el = $(el);
 
@@ -8,6 +6,11 @@ $.TweetCompose = function (el) {
     var charsRemaining = (140 - event.currentTarget.value.length);
     this.$el.find('strong').text(charsRemaining + " characters remaining");
   }.bind(this));
+  this.$el.on('click', '.add-mentioned-user', this.addMentionedUser.bind(this));
+};
+
+$.TweetCompose.prototype.addMentionedUser = function (event) {
+  $('.mentioned-users').append($('#add-mention-script').html());
 };
 
 $.TweetCompose.prototype.submit = function (event) {

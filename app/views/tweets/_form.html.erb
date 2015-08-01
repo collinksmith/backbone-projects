@@ -12,6 +12,16 @@
   <strong class="chars-left">140 characters remaining</strong>
   <br>
 
+  <a href="javascript:void(0)" class="add-mentioned-user">Add mention</a>
+  <div class="mentioned-users">
+  </div>
+  <br>
+
+  <input type="Submit" value="Post Tweet!">
+</form>
+
+
+<script type="text/template" id="add-mention-script">
   <label>
     Mention
     <select name="tweet[mentioned_user_ids][]">
@@ -21,7 +31,4 @@
       <% end %>
     </select>
   </label>
-  <br>
-
-  <input type="Submit" value="Post Tweet!">
-</form>
+</script>
