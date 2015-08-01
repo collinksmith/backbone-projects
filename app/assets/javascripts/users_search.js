@@ -13,7 +13,6 @@ $.UsersSearch.prototype.handleInput = function (event) {
     url: "/users/search",
     type: "GET",
     success: function (users) {
-      console.log(users);
       this.renderResults(users);
     }.bind(this),
     error: function () {
