@@ -44,20 +44,11 @@ ul {
 }
 
 #pokedex > * {
-<<<<<<< HEAD:skeleton2/app/assets/stylesheets/application.css
-  height: 100%;
-  width: 33.33333333333%;
-  border: thin solid blue;
-  display: block;
-  float: left;
-  overflow: auto;
-=======
 	height: 100%;
-	width: 33.32%;
+	width: 33%;
 	border: thin solid blue;
   display:  inline-block;
 	overflow: auto;
->>>>>>> prettify code:revisedskeleton2/app/assets/stylesheets/application.css
 }
 
 .poke-list-item, .toy-list-item {
@@ -128,5 +119,3 @@ ul {
   max-width: 300px;
   max-height: 200px;
 }
-
-

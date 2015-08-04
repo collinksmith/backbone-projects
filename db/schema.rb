@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20150508164455) do
     t.integer  "attack",     null: false
     t.integer  "defense",    null: false
     t.string   "poke_type",  null: false
-    t.string   "moves",                   array: true
+    t.string   "moves",      null: false
     t.string   "image_url",  null: false
     t.datetime "created_at"
     t.datetime "updated_at"
