@@ -23,15 +23,14 @@ Pokedex.Views.PokemonIndex = Backbone.View.extend({
     this.$el.append(content);
   },
 
-  refreshPokemon: function () {
-    this.collection.fetch();
+  refreshPokemon: function (callback) {
+    this.collection.fetch({
+      success: callback
+    });
   },
 
   selectPokemonFromList: function (event) {
     var id = $(event.currentTarget).data('id');
-    var pokemon = this.collection.findWhere({id: id});
-    var view = new Pokedex.Views.PokemonDetail( {model: pokemon});
-    $("#pokedex .pokemon-detail").html(view.$el);
-    pokemon.fetch();
+    Backbone.history.navigate('#/pokemon/' + id , { trigger: true} );
   }
 });
