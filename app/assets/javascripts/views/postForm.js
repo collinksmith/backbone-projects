@@ -11,10 +11,7 @@ JournalApp.Views.PostForm = Backbone.View.extend({
 
   render: function () {
     this.$el.html(this.template({ post: this.model }));
-    if (this.errors) {
-      this.$el.append(this.errors);
-      this.errrors = undefined;
-    }
+
     return this;
   },
 
@@ -23,14 +20,17 @@ JournalApp.Views.PostForm = Backbone.View.extend({
     var formData = $(event.currentTarget).serializeJSON();
     this.model.save(formData, {
       success: function () {
+        this.collection && this.collection.add(this.model);
         Backbone.history.navigate("#posts/" + this.model.id, {trigger: true});
       }.bind(this),
+
       error: function (model, response) {
+        this.model.id && this.render();
         var responseEl = $('<p>').append(response.responseText);
-        this.errors = responseEl;
-        this.model.fetch();
+        this.$el.append(responseEl);
       }.bind(this),
-      patch: true
+
+      wait: true
     });
   }
 });
