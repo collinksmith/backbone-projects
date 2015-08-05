@@ -9,7 +9,7 @@ JournalApp.Collections.Posts = Backbone.Collection.extend({
       post = new JournalApp.Models.Post({ id: id });
       this.add(post);
     }
-
+    // maybe use a different version to not add nonexistent post
     post.fetch();
     return post;
   }
