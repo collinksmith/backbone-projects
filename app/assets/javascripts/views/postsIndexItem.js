@@ -1,10 +1,10 @@
 JournalApp.Views.PostsIndexItem = Backbone.View.extend({
-  template: JST['postItem'],
+  template: JST['postsIndexItem'],
 
   tagName: 'li',
 
   events: {
-    "click .delete-post": "deletePost"
+    "click .delete-post": "deletePost",
   },
 
   render: function () {
@@ -14,6 +14,7 @@ JournalApp.Views.PostsIndexItem = Backbone.View.extend({
   },
 
   deletePost: function () {
+    debugger;
     this.model.destroy();
     this.remove();
   }

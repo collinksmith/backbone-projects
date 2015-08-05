@@ -1,5 +1,5 @@
 JournalApp.Collections.Posts = Backbone.Collection.extend({
-  url: "/posts",
+  url: "/api/posts",
 
   model: JournalApp.Models.Post,
 

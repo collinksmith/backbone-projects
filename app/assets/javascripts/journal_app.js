@@ -4,7 +4,9 @@ window.JournalApp = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backbone!');
+    var $rootEl = $('#root');
+    new JournalApp.Routers.Router({ $rootEl: $rootEl });
+    Backbone.history.start();
   }
 };
 
