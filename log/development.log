@@ -2078,3 +2078,519 @@ Processing by Api::FeedsController#show as JSON
   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
   [1m[35mEntry Load (1.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1  [["feed_id", 2]]
 Completed 200 OK in 498ms (Views: 486.4ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 309ms (Views: 308.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:51:17 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:53:56 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:55:07 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:55:09 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 437ms (Views: 436.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/assets/views/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+
+
+Started GET "/api/feeds/3" for 127.0.0.1 at 2015-08-06 14:13:50 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mFeed Load (0.8ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-08-06 21:13:50.699000' WHERE "feeds"."id" = 3[0m
+  [1m[35m (0.6ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/itsallpolitics/2015/08/06/430077174/republicans-face-off-in-happy-hour-consolation-debate?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Republicans Face Off In 'Happy Hour' Consolation Debate\",\"link\":\"http://www.npr.org/sections/itsallpolitics/2015/08/06/430077174/republicans-face-off-in-happy-hour-consolation-debate?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Rick Perry, Bobby Jindal, Carly Fiorina, Rick Santorum, Lindsey Graham, George Pataki and Jim Gilmore didn't make the primetime debate stage. We're liveblogging their 5 p.m. debate on Fox News.\",\"content_encoded\":\"\\u003Cp\\u003ERick Perry, Bobby Jindal, Carly Fiorina, Rick Santorum, Lindsey Graham, George Pataki and Jim Gilmore didn't make the primetime debate stage. We're liveblogging their 5 p.m. debate on Fox News.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077174\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:41:00-07:00\",\"guid\":\"http://www.npr.org/sections/itsallpolitics/2015/08/06/430077174/republicans-face-off-in-happy-hour-consolation-debate?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Jessica Taylor\"}"], ["link", "http://www.npr.org/sections/itsallpolitics/2015/08/06/430077174/republicans-face-off-in-happy-hour-consolation-debate?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:41:00 UTC +00:00], ["title", "Republicans Face Off In 'Happy Hour' Consolation Debate"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/2015/08/06/430077472/coda-to-a-cold-case-the-mystery-of-the-stolen-stradivarius-resolved?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Coda To A Cold Case: The Mystery Of The Stolen Stradivarius, Resolved\",\"link\":\"http://www.npr.org/2015/08/06/430077472/coda-to-a-cold-case-the-mystery-of-the-stolen-stradivarius-resolved?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"A Stradivarius violin, which was stolen and hidden for 35 years, has now been found. It belonged to the late virtuoso Roman Totenberg — the father of NPR's Nina Totenberg. Nina tells the story.\",\"content_encoded\":\"\\u003Cp\\u003EA Stradivarius violin, which was stolen and hidden for 35 years, has now been found. It belonged to the late virtuoso Roman Totenberg — the father of NPR's Nina Totenberg. Nina tells the story.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077472\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:07:37-07:00\",\"guid\":\"http://www.npr.org/2015/08/06/430077472/coda-to-a-cold-case-the-mystery-of-the-stolen-stradivarius-resolved?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Nina Totenberg\"}"], ["link", "http://www.npr.org/2015/08/06/430077472/coda-to-a-cold-case-the-mystery-of-the-stolen-stradivarius-resolved?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:07:37 UTC +00:00], ["title", "Coda To A Cold Case: The Mystery Of The Stolen Stradivarius, Resolved"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/2015/08/06/430077430/with-climate-change-plans-democratic-candidates-arent-just-courting-voters?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"With Climate Change Plans, Democratic Candidates Aren't Just Courting Voters\",\"link\":\"http://www.npr.org/2015/08/06/430077430/with-climate-change-plans-democratic-candidates-arent-just-courting-voters?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"The vast majority of Democratic voters believe that something needs to be done to combat climate change. So, the party's presidential candidates have been racing to tout their environmental plans — and to court environmentalist megadonor Tom Steyer.\",\"content_encoded\":\"\\u003Cp\\u003EThe vast majority of Democratic voters believe that something needs to be done to combat climate change. So, the party's presidential candidates have been racing to tout their environmental plans — and to court environmentalist megadonor Tom Steyer.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077430\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:07:37-07:00\",\"guid\":\"http://www.npr.org/2015/08/06/430077430/with-climate-change-plans-democratic-candidates-arent-just-courting-voters?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Tamara Keith\"}"], ["link", "http://www.npr.org/2015/08/06/430077430/with-climate-change-plans-democratic-candidates-arent-just-courting-voters?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:07:37 UTC +00:00], ["title", "With Climate Change Plans, Democratic Candidates Aren't Just Courting Voters"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/2015/08/06/430077420/egypt-trumpets-canals-massive-expansion-but-a-windfalls-far-from-certain?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Egypt Trumpets Canal's Massive Expansion, But A Windfall's Far From Certain\",\"link\":\"http://www.npr.org/2015/08/06/430077420/egypt-trumpets-canals-massive-expansion-but-a-windfalls-far-from-certain?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Egypt has opened a major extension of the Suez Canal, doubling the number of ships that can pass through it. As the shortest route between Asia and Europe, the canal is most lucrative route in the shipping industry.\",\"content_encoded\":\"\\u003Cp\\u003EEgypt has opened a major extension of the Suez Canal, doubling the number of ships that can pass through it. As the shortest route between Asia and Europe, the canal is most lucrative route in the shipping industry.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077420\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:07:37-07:00\",\"guid\":\"http://www.npr.org/2015/08/06/430077420/egypt-trumpets-canals-massive-expansion-but-a-windfalls-far-from-certain?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Jackie Northam\"}"], ["link", "http://www.npr.org/2015/08/06/430077420/egypt-trumpets-canals-massive-expansion-but-a-windfalls-far-from-certain?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:07:37 UTC +00:00], ["title", "Egypt Trumpets Canal's Massive Expansion, But A Windfall's Far From Certain"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/2015/08/06/430077409/around-the-bend-of-the-rio-grande-a-proposed-pipeline-stirs-turmoil?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Around The Bend Of The Rio Grande, A Proposed Pipeline Stirs Turmoil\",\"link\":\"http://www.npr.org/2015/08/06/430077409/around-the-bend-of-the-rio-grande-a-proposed-pipeline-stirs-turmoil?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Oil and gas are part of the Texas' DNA. But a proposal to build a natural gas pipeline in far West Texas has roiled residents and galvanized deep community opposition.\",\"content_encoded\":\"\\u003Cp\\u003EOil and gas are part of the Texas' DNA. But a proposal to build a natural gas pipeline in far West Texas has roiled residents and galvanized deep community opposition.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077409\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:07:37-07:00\",\"guid\":\"http://www.npr.org/2015/08/06/430077409/around-the-bend-of-the-rio-grande-a-proposed-pipeline-stirs-turmoil?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Travis Bubenik\"}"], ["link", "http://www.npr.org/2015/08/06/430077409/around-the-bend-of-the-rio-grande-a-proposed-pipeline-stirs-turmoil?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:07:37 UTC +00:00], ["title", "Around The Bend Of The Rio Grande, A Proposed Pipeline Stirs Turmoil"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/2015/08/06/430077402/heres-what-to-look-for-in-the-gops-first-presidential-debate?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Here's What To Look For In The GOP's First Presidential Debate\",\"link\":\"http://www.npr.org/2015/08/06/430077402/heres-what-to-look-for-in-the-gops-first-presidential-debate?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"The first official GOP presidential debate is Thursday night in Cleveland. The top 10 candidates — according to an average of five recent national polls — will be on stage. And the seven other candidates will participate in a forum before the debate.\",\"content_encoded\":\"\\u003Cp\\u003EThe first official GOP presidential debate is Thursday night in Cleveland. The top 10 candidates — according to an average of five recent national polls — will be on stage. And the seven other candidates will participate in a forum before the debate.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430077402\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T13:07:37-07:00\",\"guid\":\"http://www.npr.org/2015/08/06/430077402/heres-what-to-look-for-in-the-gops-first-presidential-debate?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Sarah McCammon\"}"], ["link", "http://www.npr.org/2015/08/06/430077402/heres-what-to-look-for-in-the-gops-first-presidential-debate?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 20:07:37 UTC +00:00], ["title", "Here's What To Look For In The GOP's First Presidential Debate"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/thetwo-way/2015/08/06/430059811/pennsylvanias-attorney-general-charged-in-grand-jury-leak-case?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Pennsylvania's Attorney General Charged In Grand Jury Leak Case\",\"link\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430059811/pennsylvanias-attorney-general-charged-in-grand-jury-leak-case?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Prosecutors say Kathleen Kane leaked confidential information from a grand jury to a newspaper in order to embarrass political opponents.\",\"content_encoded\":\"\\u003Cp\\u003EProsecutors say Kathleen Kane leaked confidential information from a grand jury to a newspaper in order to embarrass political opponents.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430059811\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T12:38:00-07:00\",\"guid\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430059811/pennsylvanias-attorney-general-charged-in-grand-jury-leak-case?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Lucy Perkins\"}"], ["link", "http://www.npr.org/sections/thetwo-way/2015/08/06/430059811/pennsylvanias-attorney-general-charged-in-grand-jury-leak-case?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 19:38:00 UTC +00:00], ["title", "Pennsylvania's Attorney General Charged In Grand Jury Leak Case"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/thetwo-way/2015/08/06/430073622/ntsb-harrison-ford-plane-crash-caused-by-loose-engine-part?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"NTSB: Harrison Ford Plane Crash Caused By Loose Engine Part\",\"link\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430073622/ntsb-harrison-ford-plane-crash-caused-by-loose-engine-part?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"The investigative agency said that a main metering jet had worked its way loose, allowing too much fuel to enter the carburetor and choking off power.\",\"content_encoded\":\"\\u003Cp\\u003EThe investigative agency said that a main metering jet had worked its way loose, allowing too much fuel to enter the carburetor and choking off power.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430073622\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T12:37:00-07:00\",\"guid\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430073622/ntsb-harrison-ford-plane-crash-caused-by-loose-engine-part?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Scott Neuman\"}"], ["link", "http://www.npr.org/sections/thetwo-way/2015/08/06/430073622/ntsb-harrison-ford-plane-crash-caused-by-loose-engine-part?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 19:37:00 UTC +00:00], ["title", "NTSB: Harrison Ford Plane Crash Caused By Loose Engine Part"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/health-shots/2015/08/06/429646637/can-a-32-year-old-doctor-cure-baltimores-ills?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Can A 32-Year-Old Doctor Cure Baltimore's Ills?\",\"link\":\"http://www.npr.org/sections/health-shots/2015/08/06/429646637/can-a-32-year-old-doctor-cure-baltimores-ills?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Leana Wen, Baltimore's new health commissioner, is trying to apply public health approaches to ameliorate the city's deep-seated problems with poverty, violence and disease.\",\"content_encoded\":\"\\u003Cp\\u003ELeana Wen, Baltimore's new health commissioner, is trying to apply public health approaches to ameliorate the city's deep-seated problems with poverty, violence and disease.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=429646637\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T12:26:00-07:00\",\"guid\":\"http://www.npr.org/sections/health-shots/2015/08/06/429646637/can-a-32-year-old-doctor-cure-baltimores-ills?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Audie Cornish\"}"], ["link", "http://www.npr.org/sections/health-shots/2015/08/06/429646637/can-a-32-year-old-doctor-cure-baltimores-ills?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 19:26:00 UTC +00:00], ["title", "Can A 32-Year-Old Doctor Cure Baltimore's Ills?"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/itsallpolitics/2015/08/06/429409023/stage-is-set-for-the-first-republican-debates?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"LIVE CHAT: Join NPR's Politics Team For The Republican Debates\",\"link\":\"http://www.npr.org/sections/itsallpolitics/2015/08/06/429409023/stage-is-set-for-the-first-republican-debates?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"The top 10 candidates, as determined by Fox, take the stage together for the first time at 9 p.m. ET. The other seven debate earlier, at 5 p.m. ET.\",\"content_encoded\":\"\\u003Cp\\u003EThe top 10 candidates, as determined by Fox, take the stage together for the first time at 9 p.m. ET. The other seven debate earlier, at 5 p.m. ET.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=429409023\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T11:39:00-07:00\",\"guid\":\"http://www.npr.org/sections/itsallpolitics/2015/08/06/429409023/stage-is-set-for-the-first-republican-debates?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"NPR Staff\"}"], ["link", "http://www.npr.org/sections/itsallpolitics/2015/08/06/429409023/stage-is-set-for-the-first-republican-debates?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 18:39:00 UTC +00:00], ["title", "LIVE CHAT: Join NPR's Politics Team For The Republican Debates"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/thetwo-way/2015/08/06/430058695/irwin-lipkin-last-of-madoff-defendants-gets-6-months-in-prison?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Irwin Lipkin, Last Of Madoff Defendants, Gets 6 Months In Prison\",\"link\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430058695/irwin-lipkin-last-of-madoff-defendants-gets-6-months-in-prison?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"The 77-year-old was one of Bernard Madoff's first employees. He pleaded guilty three years ago to knowingly signing false documents, but has insisted that he thought the operation was legitimate.\",\"content_encoded\":\"\\u003Cp\\u003EThe 77-year-old was one of Bernard Madoff's first employees. He pleaded guilty three years ago to knowingly signing false documents, but has insisted that he thought the operation was legitimate.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=430058695\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T11:11:00-07:00\",\"guid\":\"http://www.npr.org/sections/thetwo-way/2015/08/06/430058695/irwin-lipkin-last-of-madoff-defendants-gets-6-months-in-prison?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Scott Neuman\"}"], ["link", "http://www.npr.org/sections/thetwo-way/2015/08/06/430058695/irwin-lipkin-last-of-madoff-defendants-gets-6-months-in-prison?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 18:11:00 UTC +00:00], ["title", "Irwin Lipkin, Last Of Madoff Defendants, Gets 6 Months In Prison"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00], ["feed_id", 3], ["guid", "http://www.npr.org/sections/thesalt/2015/08/06/429437860/cut-your-bagel-the-mathematically-correct-way?utm_medium=RSS&amp;utm_campaign=news"], ["json", "{\"title\":\"Cut Your Bagel The Mathematically Correct Way\",\"link\":\"http://www.npr.org/sections/thesalt/2015/08/06/429437860/cut-your-bagel-the-mathematically-correct-way?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"description\":\"Bagels are getting too big and puffy, throwing off proper ratios to cream cheese and lox. Something must be done.\",\"content_encoded\":\"\\u003Cp\\u003EBagels are getting too big and puffy, throwing off proper ratios to cream cheese and lox. Something must be done.\\u003C/p\\u003E\\u003Cp\\u003E\\u003Ca href=\\\"http://www.npr.org/templates/email/emailAFriend.php?storyId=429437860\\\"\\u003E\\u0026raquo; E-Mail This\\u003C/a\\u003E\\u003C/p\\u003E\",\"pubDate\":\"2015-08-06T10:45:19-07:00\",\"guid\":\"http://www.npr.org/sections/thesalt/2015/08/06/429437860/cut-your-bagel-the-mathematically-correct-way?utm_medium=RSS\\u0026amp;utm_campaign=news\",\"dc_creator\":\"Dan Pashman\"}"], ["link", "http://www.npr.org/sections/thesalt/2015/08/06/429437860/cut-your-bagel-the-mathematically-correct-way?utm_medium=RSS&amp;utm_campaign=news"], ["published_at", Thu, 06 Aug 2015 17:45:19 UTC +00:00], ["title", "Cut Your Bagel The Mathematically Correct Way"], ["updated_at", Thu, 06 Aug 2015 21:13:50 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mEntry Load (0.8ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 3]]
+Completed 200 OK in 248ms (Views: 231.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/views/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+
+
+Started GET "/api/feeds/3" for 127.0.0.1 at 2015-08-06 14:14:47 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-08-06 21:14:47.482147' WHERE "feeds"."id" = 3[0m
+  [1m[35m (0.5ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.8ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 3]]
+Completed 200 OK in 214ms (Views: 209.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/views/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+
+
+Started GET "/api/feeds/3" for 127.0.0.1 at 2015-08-06 14:16:19 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mFeed Load (0.7ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-08-06 21:16:19.381981' WHERE "feeds"."id" = 3[0m
+  [1m[35m (1.2ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (1.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 3]]
+Completed 200 OK in 231ms (Views: 225.3ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 14:16:23 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.4ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/feeds/3" for 127.0.0.1 at 2015-08-06 14:16:24 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mEntry Load (1.6ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1  [["feed_id", 3]]
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/views/feed_show.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+
+
+Started GET "/api/feeds/3" for 127.0.0.1 at 2015-08-06 14:16:53 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (1.3ms)[0m  UPDATE "feeds" SET "updated_at" = '2015-08-06 21:16:53.687433' WHERE "feeds"."id" = 3
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.8ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1  [["feed_id", 3]]
+Completed 200 OK in 240ms (Views: 234.0ms | ActiveRecord: 3.7ms)
