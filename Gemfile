@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'backbone-on-rails'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'better_errors'

@@ -1,16 +1,18 @@
-<form class="post-form">
+<form class="post-form form-group">
   <label for="post-title">Title</label>
   <br>
   <input type="text"
          name="title"
          value="<%= post.get('title') %>"
-         id="post-title">
+         id="post-title"
+         class="form-control">
   <br>
   <br>
   <label for="post-body">Body</label>
   <br>
   <textarea name="body"
-            id="post-body"><%= post.get('body') %></textarea>
+            id="post-body"
+            class="form-control"><%= post.get('body') %></textarea>
 
-  <button type="submit" class="submit-post">Submit</button>
+  <button type="submit" class="submit-post btn btn-primary">Submit</button>
 </form>

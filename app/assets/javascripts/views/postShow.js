@@ -28,9 +28,9 @@ JournalApp.Views.PostShow = Backbone.View.extend({
     var oldName = p.attr('name');
 
     if (p.attr('class') === 'input') {
-      p.html($('<input>').val(oldVal));
+      p.html($('<input>').val(oldVal).attr('class', 'form-control'));
     } else if (p.attr('class') === 'textarea') {
-      p.html($('<textarea>').html(oldVal));
+      p.html($('<textarea>').html(oldVal).attr('class', 'form-control'));
     }
 
     p.attr('name', oldName);
