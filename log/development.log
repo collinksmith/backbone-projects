@@ -1396,3 +1396,685 @@ Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 11:45:39 -0700
 Processing by Api::FeedsController#index as JSON
   [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/feed/1" for 127.0.0.1 at 2015-08-06 13:21:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/feed/1"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.3ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.4ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (80.2ms)
+
+
+Started GET "/feeds/1" for 127.0.0.1 at 2015-08-06 13:21:50 -0700
+
+ActionController::RoutingError (No route matches [GET] "/feeds/1"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/appacademy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.1ms)
+
+
+Started GET "/api/feeds/1" for 127.0.0.1 at 2015-08-06 13:21:57 -0700
+Processing by Api::FeedsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (3.5ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mSQL (1.5ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-08-06 20:21:57.608372' WHERE "feeds"."id" = 1[0m
+  [1m[35m (0.9ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892520"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:22:00+00:00\",\"link\":\"http://example.com/test/1438892520\",\"description\":\"Cupidatat sunt elit reprehenderit labore et.\",\"pubDate\":\"2015-08-06T13:22:00-07:00\",\"guid\":\"http://example.com/test/1438892520\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892520"], ["published_at", Thu, 06 Aug 2015 20:22:00 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:22:00+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892510"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:50+00:00\",\"link\":\"http://example.com/test/1438892510\",\"description\":\"In voluptate veniam exercitation officia.\",\"pubDate\":\"2015-08-06T13:21:50-07:00\",\"guid\":\"http://example.com/test/1438892510\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892510"], ["published_at", Thu, 06 Aug 2015 20:21:50 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:50+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892500"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:40+00:00\",\"link\":\"http://example.com/test/1438892500\",\"description\":\"Incididunt enim sint aliquip enim in sit occaecat officia sit tempor sint pariatur.\",\"pubDate\":\"2015-08-06T13:21:40-07:00\",\"guid\":\"http://example.com/test/1438892500\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892500"], ["published_at", Thu, 06 Aug 2015 20:21:40 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:40+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892490"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:30+00:00\",\"link\":\"http://example.com/test/1438892490\",\"description\":\"Pariatur enim qui excepteur laboris.\",\"pubDate\":\"2015-08-06T13:21:30-07:00\",\"guid\":\"http://example.com/test/1438892490\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892490"], ["published_at", Thu, 06 Aug 2015 20:21:30 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:30+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892480"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:20+00:00\",\"link\":\"http://example.com/test/1438892480\",\"description\":\"Cillum eu aliqua nostrud ad veniam laboris laboris ullamco qui pariatur id.\",\"pubDate\":\"2015-08-06T13:21:20-07:00\",\"guid\":\"http://example.com/test/1438892480\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892480"], ["published_at", Thu, 06 Aug 2015 20:21:20 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:20+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892470"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:10+00:00\",\"link\":\"http://example.com/test/1438892470\",\"description\":\"Veniam minim deserunt exercitation quis reprehenderit aute ex do tempor tempor in excepteur exercitation.\",\"pubDate\":\"2015-08-06T13:21:10-07:00\",\"guid\":\"http://example.com/test/1438892470\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892470"], ["published_at", Thu, 06 Aug 2015 20:21:10 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:10+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892460"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:21:00+00:00\",\"link\":\"http://example.com/test/1438892460\",\"description\":\"Quis nulla veniam aute consectetur dolor sunt ullamco cupidatat.\",\"pubDate\":\"2015-08-06T13:21:00-07:00\",\"guid\":\"http://example.com/test/1438892460\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892460"], ["published_at", Thu, 06 Aug 2015 20:21:00 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:21:00+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892450"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:20:50+00:00\",\"link\":\"http://example.com/test/1438892450\",\"description\":\"Non officia adipisicing nulla labore irure amet.\",\"pubDate\":\"2015-08-06T13:20:50-07:00\",\"guid\":\"http://example.com/test/1438892450\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892450"], ["published_at", Thu, 06 Aug 2015 20:20:50 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:20:50+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892440"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:20:40+00:00\",\"link\":\"http://example.com/test/1438892440\",\"description\":\"Amet Lorem tempor occaecat velit.\",\"pubDate\":\"2015-08-06T13:20:40-07:00\",\"guid\":\"http://example.com/test/1438892440\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892440"], ["published_at", Thu, 06 Aug 2015 20:20:40 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:20:40+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1438892430"], ["json", "{\"title\":\"Lorem ipsum 2015-08-06T20:20:30+00:00\",\"link\":\"http://example.com/test/1438892430\",\"description\":\"Duis occaecat tempor sit veniam fugiat irure ullamco nostrud nostrud eiusmod.\",\"pubDate\":\"2015-08-06T13:20:30-07:00\",\"guid\":\"http://example.com/test/1438892430\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1438892430"], ["published_at", Thu, 06 Aug 2015 20:20:30 UTC +00:00], ["title", "Lorem ipsum 2015-08-06T20:20:30+00:00"], ["updated_at", Thu, 06 Aug 2015 20:21:58 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mEntry Load (1.6ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 1]]
+Completed 200 OK in 523ms (Views: 487.9ms | ActiveRecord: 23.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 278ms (Views: 277.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:29:40 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (1.0ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:31:33 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:34:21 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.5ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:34:39 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.4ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:34:57 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.7ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:35:22 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.4ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:35:37 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.5ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:36:04 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:36:21 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/views/feeds_index.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:41:28 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.6ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-08-06 13:42:36 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/feeds/2" for 127.0.0.1 at 2015-08-06 13:44:01 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mFeed Load (0.8ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1[0m  [["id", "2"]]
+  [1m[35mSQL (1.2ms)[0m  UPDATE "feeds" SET "updated_at" = '2015-08-06 20:44:01.136909' WHERE "feeds"."id" = 2
+  [1m[36m (0.6ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1820833"], ["json", "{\"title\":\"Cape Watch: Hulk Smash Civil War! (We Think)\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5d695/sc/28/l/0L0Swired0N0C20A150C0A80Ccapewatch0E490C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2015/08/CapeWatch49-660x440.jpg\\\" alt=\\\"Cape Watch: Hulk Smash Civil War! (We Think)\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;So the \\\"Fantastic Four\\\" reviews aren't great. So what? There's plenty of good superhero news to get excited about.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/capewatch-49/\\\"\\u0026gt;Cape Watch: Hulk Smash \\u0026lt;em\\u0026gt;Civil War\\u0026lt;/em\\u0026gt;! (We Think)\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566810479/u/0/f/661370/c/35185/s/48c5d695/sc/28/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5d695/sc/28/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"http://www.wired.com/2015/08/capewatch-49/#comments\",\"pubDate\":\"2015-08-06T13:00:45-07:00\",\"category\":\"Spider-Man\",\"guid\":\"http://www.wired.com/?p=1820833\",\"dc_creator\":\"Graeme McMillan\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5d695/sc/28/l/0L0Swired0N0C20A150C0A80Ccapewatch0E490C/story01.htm"], ["published_at", Thu, 06 Aug 2015 20:00:45 UTC +00:00], ["title", "Cape Watch: Hulk Smash Civil War! (We Think)"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1821286"], ["json", "{\"title\":\"The Flame-Throwing Helicopter That Fights Wildfires\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5d422/sc/3/l/0L0Swired0N0C20A150C0A80Cflame0Ethrowing0Ehelicopter0Efights0Ewildfires0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2015/08/flames-660x343.jpg\\\" alt=\\\"The Flame-Throwing Helicopter That Fights Wildfires\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;Crews fighting the massive Rocky Fire in northern California have dusted off the helitorch.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/flame-throwing-helicopter-fights-wildfires/\\\"\\u0026gt;The Flame-Throwing Helicopter That Fights Wildfires\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566809873/u/0/f/661370/c/35185/s/48c5d422/sc/3/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5d422/sc/3/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"http://www.wired.com/2015/08/flame-throwing-helicopter-fights-wildfires/#comments\",\"pubDate\":\"2015-08-06T12:45:07-07:00\",\"category\":\"Helicopters\",\"guid\":\"http://www.wired.com/?p=1821286\",\"dc_creator\":\"Jordan Golson\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5d422/sc/3/l/0L0Swired0N0C20A150C0A80Cflame0Ethrowing0Ehelicopter0Efights0Ewildfires0C/story01.htm"], ["published_at", Thu, 06 Aug 2015 19:45:07 UTC +00:00], ["title", "The Flame-Throwing Helicopter That Fights Wildfires"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1821048"], ["json", "{\"title\":\"Audio Visuals: A Pair of Rockers Become Nude Video Game Characters\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5cd58/sc/28/l/0L0Swired0N0C20A150C0A80Caudio0Evisuals0E290C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2015/08/naked-660x371.jpg\\\" alt=\\\"Audio Visuals: A Pair of Rockers Become Nude Video Game Characters\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;This week's music video roundup goes from Kendrick Lamar to hypnotized dancing before you can say, \\\"Wait, what?!\\\"\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/audio-visuals-29/\\\"\\u0026gt;Audio Visuals: A Pair of Rockers Become Nude Video Game Characters\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566808302/u/0/f/661370/c/35185/s/48c5cd58/sc/28/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5cd58/sc/28/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"https://www.wired.com/2015/08/audio-visuals-29/#comments\",\"pubDate\":\"2015-08-06T12:00:27-07:00\",\"category\":\"Audio Visuals\",\"guid\":\"http://www.wired.com/?p=1821048\",\"dc_creator\":\"Jordan Crucchiola\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5cd58/sc/28/l/0L0Swired0N0C20A150C0A80Caudio0Evisuals0E290C/story01.htm"], ["published_at", Thu, 06 Aug 2015 19:00:27 UTC +00:00], ["title", "Audio Visuals: A Pair of Rockers Become Nude Video Game Characters"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1821820"], ["json", "{\"title\":\"Snapchat’s Weird New Political Ad Is Evil Genius\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5cd5d/sc/3/l/0L0Swired0N0C20A150C0A80Csnapchat0Eiran0Edeal0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2014/12/snapchat-ambitions-ft-660x495.jpg\\\" alt=\\\"Snapchat\\u0026amp;#8217;s Weird New Political Ad Is Evil Genius\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;On Snapchat, you are now the political ad.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/snapchat-iran-deal/\\\"\\u0026gt;Snapchat\\u0026amp;#8217;s Weird New Political Ad Is Evil Genius\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566808301/u/0/f/661370/c/35185/s/48c5cd5d/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5cd5d/sc/3/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"https://www.wired.com/2015/08/snapchat-iran-deal/#comments\",\"pubDate\":\"2015-08-06T11:59:43-07:00\",\"category\":\"election 2016\",\"guid\":\"http://www.wired.com/?p=1821820\",\"dc_creator\":\"Issie Lapowsky\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5cd5d/sc/3/l/0L0Swired0N0C20A150C0A80Csnapchat0Eiran0Edeal0C/story01.htm"], ["published_at", Thu, 06 Aug 2015 18:59:43 UTC +00:00], ["title", "Snapchat’s Weird New Political Ad Is Evil Genius"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1821247"], ["json", "{\"title\":\"Our New Best Guess for Where to Find MH370: The Indian Ocean\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5cb2b/sc/10/l/0L0Swired0N0C20A150C0A80Cwhere0Eto0Efind0Emh370A0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2015/08/IndicativeDrift_30July2015-660x431.jpg\\\" alt=\\\"Our New Best Guess for Where to Find MH370: The Indian Ocean\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;At least we know the plane's not hiding in Kazakhstan.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/where-to-find-mh370/\\\"\\u0026gt;Our New Best Guess for Where to Find MH370: The Indian Ocean\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566807808/u/0/f/661370/c/35185/s/48c5cb2b/sc/10/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5cb2b/sc/10/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"http://www.wired.com/2015/08/where-to-find-mh370/#comments\",\"pubDate\":\"2015-08-06T11:51:11-07:00\",\"category\":\"Malaysia Airlines Flight 370\",\"guid\":\"http://www.wired.com/?p=1821247\",\"dc_creator\":\"Alex Davies\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5cb2b/sc/10/l/0L0Swired0N0C20A150C0A80Cwhere0Eto0Efind0Emh370A0C/story01.htm"], ["published_at", Thu, 06 Aug 2015 18:51:11 UTC +00:00], ["title", "Our New Best Guess for Where to Find MH370: The Indian Ocean"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00], ["feed_id", 2], ["guid", "http://www.wired.com/?p=1821814"], ["json", "{\"title\":\"Tesla’s Whipped Up Your Latest Nightmare\",\"link\":\"http://feeds.wired.com/c/35185/f/661370/s/48c5600b/sc/23/l/0L0Swired0N0C20A150C0A80Cteslas0Ewhipped0Elatest0Enightmare0C/story01.htm\",\"description\":\"\\u0026lt;div class=\\\"rss_thumbnail\\\"\\u0026gt;\\u0026lt;img src=\\\"http://www.wired.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-06-at-11.01.22-AM-660x364.png\\\" alt=\\\"Tesla\\u0026amp;#8217;s Whipped Up Your Latest Nightmare\\\" /\\u0026gt;\\u0026lt;/div\\u0026gt;\\u0026lt;p\\u0026gt;As creepy as it is cool.\\u0026lt;/p\\u0026gt; \\u0026lt;p\\u0026gt;The post \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com/2015/08/teslas-whipped-latest-nightmare/\\\"\\u0026gt;Tesla\\u0026amp;#8217;s Whipped Up Your Latest Nightmare\\u0026lt;/a\\u0026gt; appeared first on \\u0026lt;a rel=\\\"nofollow\\\" href=\\\"http://www.wired.com\\\"\\u0026gt;WIRED\\u0026lt;/a\\u0026gt;.\\u0026lt;/p\\u0026gt;\\u0026lt;br clear='all'/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/1/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/1/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/2/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/2/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/3/rc.htm\\\" rel=\\\"nofollow\\\"\\u0026gt;\\u0026lt;img src=\\\"http://rc.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/rc/3/rc.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://da.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/a2.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://da.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/a2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;br/\\u0026gt;\\u0026lt;a href=\\\"http://adchoice.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/ach.htm\\\"\\u0026gt;\\u0026lt;img src=\\\"http://adchoice.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/ach.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;/a\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/a2t.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width=\\\"1\\\" height=\\\"1\\\" src=\\\"http://pi2.feedsportal.com/r/234566812750/u/0/f/661370/c/35185/s/48c5600b/sc/23/a2t2.img\\\" border=\\\"0\\\"/\\u0026gt;\\u0026lt;img width='1' height='1' src='http://feeds.wired.com/c/35185/f/661370/s/48c5600b/sc/23/mf.gif' border='0'/\\u0026gt;\",\"comments\":\"http://www.wired.com/2015/08/teslas-whipped-latest-nightmare/#comments\",\"pubDate\":\"2015-08-06T11:06:31-07:00\",\"category\":\"Tesla Motors\",\"guid\":\"http://www.wired.com/?p=1821814\",\"dc_creator\":\"Alex Davies\"}"], ["link", "http://feeds.wired.com/c/35185/f/661370/s/48c5600b/sc/23/l/0L0Swired0N0C20A150C0A80Cteslas0Ewhipped0Elatest0Enightmare0C/story01.htm"], ["published_at", Thu, 06 Aug 2015 18:06:31 UTC +00:00], ["title", "Tesla’s Whipped Up Your Latest Nightmare"], ["updated_at", Thu, 06 Aug 2015 20:44:01 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mEntry Load (1.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1  [["feed_id", 2]]
+Completed 200 OK in 498ms (Views: 486.4ms | ActiveRecord: 10.7ms)
