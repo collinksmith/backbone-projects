@@ -1,4 +1,4 @@
-NewsReader.Views.FeedShow = Backbone.View.extend({
+NewsReader.Views.FeedShow = Backbone.CompositeView.extend({
   template: JST['feed_show'],
 
   events: {
@@ -7,11 +7,13 @@ NewsReader.Views.FeedShow = Backbone.View.extend({
 
   initialize: function () {
     this.listenTo(this.model, "sync", this.render);
+    this.addEntriesView(this.model.entries());
   },
 
   render: function () {
     var content = this.template({ feed: this.model });
     this.$el.html(content);
+    this.attachSubviews();
     return this;
   },
 
@@ -19,5 +21,11 @@ NewsReader.Views.FeedShow = Backbone.View.extend({
     this.model.fetch({
       success: this.render.bind(this)
     });
+  },
+
+  addEntriesView: function (entries) {
+    var subview = new NewsReader.Views.EntriesIndex({ collection: entries });
+    this.addSubview('.entries', subview);
   }
+
 });

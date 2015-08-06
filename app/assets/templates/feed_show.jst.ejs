@@ -1,9 +1,3 @@
 <h1><%= feed.escape('title') %></h1>
 <button class="refresh">Reload Feed</button>
-<ul>
-  <% feed.entries().each (function (entry) { %>
-    <li>
-      <%= entry.escape('title') %>
-    </li>
-  <% }); %>
-</ul>
+<div class="entries"></div>
