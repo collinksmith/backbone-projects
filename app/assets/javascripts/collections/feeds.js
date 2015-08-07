@@ -3,8 +3,9 @@ NewsReader.Collections.Feeds = Backbone.Collection.extend({
 
   model: NewsReader.Models.Feed,
 
+  comparator: 'title',
+
   getOrFetch: function (id) {
-    // var feed = this.get(id)
     var feeds = this;
     var feed = this.get(id);
     if (feed) {

@@ -1,9 +1,6 @@
 NewsReader.Views.EntriesIndex = Backbone.CompositeView.extend({
   template: JST['entries_index'],
 
-  // tagName: "ul",
-  // className: "entry-items",
-
   initialize: function () {
     this.listenTo(this.collection, 'add', this.addEntryView);
     this.listenTo(this.collection, 'sync', this.render);
