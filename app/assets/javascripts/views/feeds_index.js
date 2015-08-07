@@ -3,12 +3,13 @@ NewsReader.Views.FeedsIndex = Backbone.CompositeView.extend ({
 
   initialize: function () {
     this.listenTo(this.collection, 'add', this.addIndexItemView);
-    this.listenTo(this.collection, 'sync remove', this.render);
+    this.listenTo(this.collection, 'sync', this.render);
     this.collection.each(this.addIndexItemView.bind(this));
   },
 
   addIndexItemView: function (item) {
-    var subview = new NewsReader.Views.FeedsIndexItem({ model: item });
+    var subview = new NewsReader.Views.FeedsIndexItem({ model: item,
+                                                        collection: this.collection});
     this.addSubview('.feed-list', subview);
   },
 

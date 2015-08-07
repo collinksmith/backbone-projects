@@ -17,5 +17,6 @@ NewsReader.Views.FeedsIndexItem = Backbone.View.extend({
 
   deleteFeed: function () {
     this.model.destroy();
+    this.remove();
   }
 });
