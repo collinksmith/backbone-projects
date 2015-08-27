@@ -1,0 +1,6 @@
+Title: <p class="input" name='title'><%= post.get('title') %></p>
+<br>
+Body: <p class="textarea" name='body'><%= post.get('body') %></p>
+<br>
+<button class="delete-post btn btn-danger">Delete this Post</button>
+<a href="#posts/<%= post.get('id') %>/edit" class="btn btn-primary">Edit</a>
